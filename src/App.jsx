@@ -15,6 +15,9 @@ export class App extends React.Component {
           <Link to='/about/Meow'>
             <button className="btn btn-danger">About Page</button>
           </Link>
+          <Link to='/todo'>
+            <button className="btn btn-primary">To Do</button>
+          </Link>
         </div>
         {this.props.children}
       </div>
